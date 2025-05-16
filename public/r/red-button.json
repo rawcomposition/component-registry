@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "red-button",
+  "type": "registry:component",
+  "title": "Red Button",
+  "description": "A simple red button component",
+  "files": [
+    {
+      "path": "registry/new-york/red-button/red-button.tsx",
+      "content": "export function RedButton() {\n  return <button className=\"bg-red-500 text-white p-2 rounded-md\">Red Button</button>;\n}\n",
+      "type": "registry:component"
+    }
+  ]
+}
